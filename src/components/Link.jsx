@@ -4,7 +4,7 @@ const Link = ({nav}) => {
     return (
         <div>
             <ul>
-                <li><a href={nav.route}>{nav.name}</a></li>
+                <li className='hover:bg-amber-300'><a href={nav.route}>{nav.name}</a></li>
             </ul>
         </div>
     );
